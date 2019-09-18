@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+     android:padding="@dimen/dp_5">
+
+    <RelativeLayout
+        android:id="@+id/rl_im"
+        android:layout_width="wrap_content"
+        android:background="@drawable/sales_boder"
+        android:padding="@dimen/dp_2"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/sales_img"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_120"
+        android:scaleType="centerCrop" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sales_tv_extendString5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_im"
+        android:layout_alignLeft="@id/rl_im"
+        android:layout_marginTop="@dimen/dp_2"
+        android:background="@color/c_E65C17"
+        android:maxLength="10"
+        android:paddingLeft="@dimen/dp_3"
+        android:paddingTop="@dimen/dp_2"
+        android:paddingRight="@dimen/dp_3"
+        android:paddingBottom="@dimen/dp_2"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/sales_tv_goodsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sales_tv_extendString5"
+        android:layout_alignLeft="@id/sales_img"
+        android:layout_marginTop="@dimen/dp_2"
+        android:ellipsize="end"
+        android:maxEms="6"
+        android:singleLine="true"
+        android:textSize="@dimen/sp_16" />
+
+    <TextView
+        android:id="@+id/sales_tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sales_tv_goodsName"
+        android:layout_alignLeft="@id/sales_img"
+        android:layout_marginTop="@dimen/dp_1"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/sp_16" />
+
+    <TextView
+        android:id="@+id/sales_tv_rmbprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sales_tv_price"
+        android:layout_alignLeft="@id/sales_img"
+        android:layout_marginTop="@dimen/dp_1"
+        android:textSize="@dimen/sp_12" />
+
+</RelativeLayout>

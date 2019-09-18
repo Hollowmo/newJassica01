@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jassica.jassica.ui.register.fragment.OldFragment">
+
+    <EditText
+        android:id="@+id/old_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入账号"
+        android:maxLines="1"
+        android:inputType="text"
+        android:maxLength="13"
+        android:ellipsize="end"
+        android:textSize="@dimen/sp_18"
+        />
+
+    <EditText
+        android:id="@+id/old_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:maxLines="1"
+        android:inputType="text"
+        android:maxLength="13"
+        android:ellipsize="end"
+        android:textSize="@dimen/sp_18"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:background="@drawable/button_yuan"
+        android:textColor="@color/colorWrith"
+        />
+
+</LinearLayout>

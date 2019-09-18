@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_lightgray"
+    android:id="@+id/rl"
+    tools:context=".ui.home.activity.TitleActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:id="@+id/title_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rigster_left"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="今日汇率"
+            android:textSize="@dimen/dp_20"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_20"
+        >
+        <TextView
+            android:id="@+id/title_taiguo"
+            android:layout_margin="@dimen/dp_8"
+            android:textSize="@dimen/sp_12"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="THB"
+            android:drawableTop="@mipmap/taiguo"
+            android:gravity="center"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/icon_arrow"
+            android:layout_marginTop="@dimen/dp_14"
+            />
+        <TextView
+            android:id="@+id/title_china"
+            android:layout_margin="@dimen/dp_8"
+            android:textSize="@dimen/sp_12"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="CNY"
+            android:drawableTop="@mipmap/china"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_36"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <TextView
+            android:textSize="@dimen/sp_12"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="wrap_content"
+            android:text="支付宝"
+            android:gravity="center"
+            android:drawableLeft="@drawable/zhifubao"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_20"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 THB "
+            android:textSize="@dimen/dp_18"
+            android:textColor="@color/colorRed"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_60"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/rlght_red"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ¥ 23.9840"
+            android:textSize="@dimen/dp_18"
+            android:textColor="@color/colorRed"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/colorBlack"
+        ></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_36"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <TextView
+            android:textSize="@dimen/sp_12"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="wrap_content"
+            android:text="微信"
+            android:drawableLeft="@drawable/wecha"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_20"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 THB "
+            android:textSize="@dimen/dp_18"
+            android:textColor="@color/blue"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_60"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/right_blue"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ¥ 23.4700"
+            android:textSize="@dimen/dp_18"
+            android:layout_gravity="center"
+            android:textColor="@color/blue"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/colorBlack"
+        ></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_36"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <TextView
+            android:textSize="@dimen/sp_12"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="wrap_content"
+            android:text="银联"
+            android:drawableLeft="@drawable/unionpay"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_20"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 THB "
+            android:textSize="@dimen/dp_18"
+            android:textColor="@color/colorRed"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_60"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/rlght_red"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ¥ 23.5579"
+            android:textSize="@dimen/dp_18"
+            android:textColor="@color/colorRed"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/colorBlack"
+        ></View>
+
+
+
+</LinearLayout>

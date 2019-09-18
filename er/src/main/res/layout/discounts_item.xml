@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/mTv_hotCity1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pop_kuang"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingTop="@dimen/dp_2"
+        android:paddingBottom="@dimen/dp_2"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12"
+        android:layout_marginTop="@dimen/dp_4"
+        android:textColor="#787878"
+        android:textSize="@dimen/sp_12"
+        android:layout_marginRight="@dimen/dp_6"
+        />
+    <TextView
+        android:id="@+id/mTv_hotCity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pop_kuang"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingTop="@dimen/dp_2"
+        android:paddingBottom="@dimen/dp_2"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12"
+        android:layout_marginTop="@dimen/dp_4"
+        android:textColor="#787878"
+        android:textSize="@dimen/sp_12"
+        android:layout_marginRight="@dimen/dp_6"
+        />
+    <TextView
+        android:id="@+id/mTv_hotCity3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pop_kuang"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingTop="@dimen/dp_2"
+        android:paddingBottom="@dimen/dp_2"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12"
+        android:layout_marginTop="@dimen/dp_4"
+        android:textColor="#787878"
+        android:textSize="@dimen/sp_12"
+        android:layout_marginRight="@dimen/dp_6"
+        />
+
+</LinearLayout>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorRed">#EE0707</color>
+    <color name="colorOrange">#FF5722</color>
+    <color name="colorBlack">#FF020202</color>
+    <color name="colorBlue">#FF3F51B5</color>
+    <color name="colorWrith">#E8E8EC</color>
+    <color name="colorGray">#FFBCBCBD</color>
+    <color name="color_Me_Gray">#F0F0F0</color>
+    <color name="transparent">#00ffffff</color>//透明
+    <color name="textColorPrimary">#2c2c2c</color>
+    <color name="drawer_item_bg_p">#e8e8e8</color>
+    <color name="drawer_item_bg_n">#fffff9</color>
+    <color name="color_lightgray">#F3F3F1</color>
+    <color name="delete_text">#cccccc</color>
+    <color name="colorCard">#FFFFFF</color>
+    <color name="blue">#3D82AF</color>
+    <color name="color_blue">#0B56A4</color>
+    <color name="white">#ffffff</color>
+    <color name="decoration">#cccccc</color>
+    <color name="c_E65C17">#E65C17</color>
+    <color name="c_cecece">#cecece</color>
+    <color name="c_8a000000">#8a000000</color>
+    <color name="c_FCFCFC" >#FCFCFC</color>
+</resources>

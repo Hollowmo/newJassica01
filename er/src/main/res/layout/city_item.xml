@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mTv_hotCity"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pop_kuang"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:maxLines="1"
+    android:paddingLeft="@dimen/dp_12"
+    android:paddingTop="@dimen/dp_4"
+    android:paddingRight="@dimen/dp_12"
+    android:layout_marginRight="@dimen/dp_4"
+    android:textColor="#787878"
+    android:paddingBottom="@dimen/dp_4"
+    android:textSize="@dimen/sp_12" />

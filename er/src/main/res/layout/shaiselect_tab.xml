@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_shaiselect"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/dp_26"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="筛选"
+        android:textColor="@color/colorBlack" />
+
+    <ImageView
+        android:layout_width="@dimen/dp_12"
+        android:layout_height="@dimen/dp_12"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_4"
+        android:layout_toRightOf="@id/tv_shaiselect"
+        android:src="@mipmap/me_version_nformation" />
+</RelativeLayout>
