@@ -119,6 +119,10 @@ public class MainActivity extends BaseActivity<EmptyView, EmptyPrestent> impleme
         fragments.add(new SoppingFragment()); // 购物车
         fragments.add(new MeFragment()); // 我的
 
+        /**
+         *     Test
+          */
+
         mMainVp.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int i) {
